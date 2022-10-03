@@ -69,14 +69,14 @@ header {
 .link-nav.current { color: var(--color-accent);
 }
 .link-nav {
-    color:var(--color-primary)
+    color:var(--color-secondary);
 }
 .link-contact:hover,
 .link-contact:focus {
     color: var(--color-accent)
 }
 .link-contact {
-    color: var(--color-secondary);
+    color: var(--color-primary);
 }
 /* main */
 /* section hero */
@@ -118,15 +118,18 @@ h2, h3 {
         line-height: 1.2;
         text-align: center;
 }
-.name {font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;}
 
-.features.data {
+.features-name { 
+        font-weight: 700;
+        line-height: 1.1;
+        text-transform: uppercase;
+        font-size: 14px;
+}
+
+.features-data {
         line-height: 1.7;}
    
-.team.data {font-size: 16px;
+.team-data {font-size: 16px;
           line-height: 1.2;}
 
 /*section features  */
@@ -155,7 +158,7 @@ position: absolute;
 .team-item {
     background-color: var(--color-brand);
 }
-.team.name {
+.team-name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
@@ -193,7 +196,7 @@ color: var(--color-accent);
     background-color: var(--color-brand);
 }
 .button-nav {
-    font-family: inherit;
+        font-family: inherit;
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
